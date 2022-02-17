@@ -130,7 +130,7 @@ class _BottomExpandableAppBarState extends State<BottomExpandableAppBar> {
         children: <Widget>[
           Padding(
             padding:
-                EdgeInsets.symmetric(horizontal: widget.horizontalMargin ?? 0),
+                EdgeInsets.symmetric(horizontal: widget.horizontalMargin),
             child: Stack(
               children: [
                 Container(
